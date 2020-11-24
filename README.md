@@ -1,2 +1,2 @@
 # Home-Of-Drone
-Combining video photography with programming
+Combining my video photography with programming
