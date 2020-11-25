@@ -1,0 +1,121 @@
+body {
+    background: #1b1a19;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.droneIcone {
+    width: 43px
+}
+
+.video {
+    border-bottom-width: 0px;
+    padding-top: 61px;
+    border-top-width: 0px;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#spanGroup span {
+    color: #ea1c2c;
+}
+
+#spanGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #272525;
+    transition: 500ms;
+}
+
+@media (max-width: 1200px) {
+    #spanGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+.navbar-default {
+    transition: 500ms ease;
+    background: transparent;
+}
+
+#title {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
+.lolli p {
+    color: #e3f498;
+    margin-bottom: 53px;
+}
+
+.lolli h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.marginTop {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#title {
+    margin-top: 10%;
+    margin-left: 35%;
+    font-size: 3rem;
+    font-family: "Impact", fantasy;
+}
+
+#start {
+    margin-top: 15%;
+    margin-left: 48%;
+}
+
+@media only screen and (max-width:620px) {
+    #title {
+        margin-top: 50%;
+        margin-left: 10%;
+        font-family: "Impact", fantasy;
+        font-size: 1.3rem;
+    }
+    #start {
+        margin-top: 15%;
+        margin-left: 33%;
+    }
+}
+
+
+/*stop left right scrolling */
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
