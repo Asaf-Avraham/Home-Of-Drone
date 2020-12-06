@@ -80,37 +80,74 @@ body {
     margin-bottom: 100px;
 }
 
-#center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-
-#title {
-    margin-top: 10%;
-    margin-left: 35%;
-    font-size: 3rem;
-    font-family: "Impact", fantasy;
-}
-
-#start {
-    margin-top: 15%;
-    margin-left: 48%;
-}
-
-@media only screen and (max-width:620px) {
+@media only screen and (min-width:300px) {
+    #centerTitle {
+        align-content: center;
+        text-align: center;
+    }
     #title {
-        margin-top: 50%;
-        margin-left: 10%;
-        font-family: "Impact", fantasy;
         font-size: 1.3rem;
+        font-family: "Impact", fantasy;
+        margin-top: 220px;
     }
-    #start {
-        margin-top: 15%;
-        margin-left: 33%;
+    #startBtn {
+        align-content: center;
+        text-align: center;
+        margin-top: 116px;
     }
 }
 
+@media only screen and (min-width:600px) {
+    #centerTitle {
+        align-content: center;
+        text-align: center;
+    }
+    #title {
+        font-size: 2rem;
+        font-family: "Impact", fantasy;
+        margin-top: 220px;
+    }
+    #startBtn {
+        align-content: center;
+        text-align: center;
+        margin-top: 116px;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    #centerTitle {
+        align-content: center;
+        text-align: center;
+    }
+    #title {
+        font-size: 4rem;
+        font-family: "Impact", fantasy;
+        margin-top: 220px;
+    }
+    #startBtn {
+        align-content: center;
+        text-align: center;
+        margin-top: 116px;
+    }
+}
+
+@media only screen and (min-width: 1320px) {
+    #centerTitle {
+        align-content: center;
+        text-align: center;
+    }
+    #title {
+        font-size: 6rem;
+        font-family: "Impact", fantasy;
+        margin-top: 220px;
+    }
+    #startBtn {
+        margin-top: 10%;
+        align-content: center;
+        text-align: center;
+        margin-top: 116px;
+    }
+}
 
 /*stop left right scrolling */
 
